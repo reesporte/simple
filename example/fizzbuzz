@@ -1,0 +1,9 @@
+# a simple fizzbuzz implementation 
+# written in a simple language
+i = 0 
+i = i + 1 
+if i % 3 == 0 print "fizz" 
+if i % 5 == 0 print "buzz" 
+if ( i % 3 != 0 ) & ( i % 5 != 0 ) print i
+print "\n"
+if i < 100 goto 2 # notice that comments don't count toward line numbers
